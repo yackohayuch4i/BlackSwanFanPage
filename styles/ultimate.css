@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to bottom, #0D031C, #4E2E52);
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  overflow: hidden;
+}
+  
+.back {
+  position: absolute;
+  width: 100%;
+  height: 950px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.container {
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 450px;
+}
+
+.black-swan1 {
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px;
+    top: 20px;
+    left: 50px;
+}
+
+
+.black-swan2 {
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px;
+    top: 20px;
+    left: 1215px;
+}
